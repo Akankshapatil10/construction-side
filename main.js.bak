@@ -1,0 +1,28 @@
+
+    window.addEventListener('load', () => {
+        const button = document.querySelector('#pdf');
+        button.addEventListenter('click', () => {
+            document.querySelector('#enter').value = "";
+        });
+    }); 
+
+$(document).ready(()=>
+        {
+            alert("LOG IN  our Construction Industry Management ")
+            $('#pdf').on('click', () =>
+            {
+                $('#enter').val("");
+            })
+        });
+		
+		
+		
+function fun(){
+
+let Name=f1.Name.value;
+	if(Name==""){
+		alert("Plz Enter name...");
+		return false;
+	}
+	
+}
